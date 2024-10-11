@@ -8,10 +8,11 @@
     "skipLibCheck": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions" : true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext", // Change this to "Node16" or "NodeNext"
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,

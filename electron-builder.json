@@ -1,7 +1,7 @@
 {
     "appId": "com.nxtdev.electronapp",
     "files": ["dist-desk", "dist-web"],
-    "icon": "./png",
+    "icon": "./me.jpg",
     "extraResources" : ["dist-desk/preload.cjs"],
     "mac": {
       "target": "dmg"
