@@ -1,0 +1,17 @@
+{
+    "appId": "com.nxtdev.electronapp",
+    "files": ["dist-desk", "dist-web"],
+    "icon": "./png",
+    "extraResources" : ["dist-desk/preload.cjs"],
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+    },
+    "win": {
+      "target": ["portable", "msi"]
+    }
+  }
+  
