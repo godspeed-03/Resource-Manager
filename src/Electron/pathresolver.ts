@@ -9,3 +9,7 @@ export function pathresolver (){
         '/dist-desk/preload.cjs'
     )
 }
+
+export function getUIpath() {
+    return path.join(app.getAppPath(), 'dist-web/index.html')
+}

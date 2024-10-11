@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 
 
 function App() {
-//@ts-ignore
-  window.electron.Staticdata();
+
+  useEffect (() => {
+window.electron.SubscribeStatics(stats => console.log(stats));
+  }, [])
+
+
 
   return (
     <>
